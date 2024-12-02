@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.videobackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: rgba(0,0,0,0.69); */
+    background: linear-gradient(to right, rgba(59, 72, 246, 0.121), rgba(66,255,91,0.299));
+    color: rgba(255, 255, 255, 0.261);
+    min-height: 100vh;
+    font-size: 3em;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.vidbg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    height: fit-content;
+    z-index: -1;
+}
